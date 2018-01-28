@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{74C0DD75-453B-E432-C590-F288B3448C04}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;GAIA_PRESENT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\EasyRoads3D Free\scripts\EasyRoads3DTerrainID.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\scripts\MarkerScript.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\scripts\RoadObjectScript.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\scripts\SideObjectInit.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\scripts\sideObjectScript.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\scripts\SurfaceScript.cs" />
+     <Compile Include="Assets\Medieval_House\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\CameraHelper.cs" />
+     <Compile Include="Assets\Scripts\CameraSensor.cs" />
+     <Compile Include="Assets\Scripts\Car.cs" />
+     <Compile Include="Assets\Scripts\CarModel.cs" />
+     <Compile Include="Assets\Scripts\CarPath.cs" />
+     <Compile Include="Assets\Scripts\CarPusher.cs" />
+     <Compile Include="Assets\Scripts\CollisionSensor.cs" />
+     <Compile Include="Assets\Scripts\GenPathFromDriving.cs" />
+     <Compile Include="Assets\Scripts\HUDFPS.cs" />
+     <Compile Include="Assets\Scripts\ICar.cs" />
+     <Compile Include="Assets\Scripts\JoystickCarControl.cs" />
+     <Compile Include="Assets\Scripts\LaneChangeTrainer.cs" />
+     <Compile Include="Assets\Scripts\Lidar.cs" />
+     <Compile Include="Assets\Scripts\Lines.cs" />
+     <Compile Include="Assets\Scripts\Localizer.cs" />
+     <Compile Include="Assets\Scripts\Logger.cs" />
+     <Compile Include="Assets\Scripts\MapManager.cs" />
+     <Compile Include="Assets\Scripts\Marker.cs" />
+     <Compile Include="Assets\Scripts\MenuHandler.cs" />
+     <Compile Include="Assets\Scripts\PathManager.cs" />
+     <Compile Include="Assets\Scripts\PIDController.cs" />
+     <Compile Include="Assets\Scripts\RoadBuilder.cs" />
+     <Compile Include="Assets\Scripts\ScreenSaver.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\JSONObject\JSONObject.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\JSONObject\JSONTemplates.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\JSONObject\VectorTemplates.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\Scripts\SocketIO\Ack.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\Scripts\SocketIO\Decoder.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\Scripts\SocketIO\Encoder.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\Scripts\SocketIO\EnginePacketType.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\Scripts\SocketIO\Packet.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\Scripts\SocketIO\Parser.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\Scripts\SocketIO\SocketIOComponent.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\Scripts\SocketIO\SocketIOEvent.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\Scripts\SocketIO\SocketIOException.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\Scripts\SocketIO\SocketPacketType.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\Scripts\Test\TestSocketIO.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\AssemblyInfo.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\ByteOrder.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\CloseEventArgs.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\CloseStatusCode.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\CompressionMethod.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\ErrorEventArgs.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Ext.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Fin.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\HandshakeBase.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\HandshakeRequest.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\HandshakeResponse.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\LogData.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Logger.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\LogLevel.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Mask.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\MessageEventArgs.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\AuthenticationBase.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\AuthenticationChallenge.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\AuthenticationResponse.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\AuthenticationSchemes.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\Chunk.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\ChunkedRequestStream.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\ChunkStream.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\Cookie.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\CookieCollection.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\CookieException.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\EndPointListener.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\EndPointManager.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpBasicIdentity.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpConnection.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpDigestIdentity.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpHeaderInfo.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpHeaderType.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpListener.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpListenerContext.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpListenerException.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpListenerPrefixCollection.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpListenerRequest.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpListenerResponse.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpStatusCode.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpStreamAsyncResult.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpUtility.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\HttpVersion.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\InputChunkState.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\InputState.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\LineState.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\ListenerAsyncResult.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\ListenerPrefix.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\NetworkCredential.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\QueryStringCollection.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\ReadBufferState.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\RequestStream.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\ResponseStream.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\Security\SslStream.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\WebHeaderCollection.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\WebSockets\HttpListenerWebSocketContext.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\WebSockets\TcpListenerWebSocketContext.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Net\WebSockets\WebSocketContext.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Opcode.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\PayloadData.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\Rsv.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\WebSocket.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\WebSocketException.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\WebSocketFrame.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\WebSocketState.cs" />
+     <Compile Include="Assets\Scripts\SocketIO\WebsocketSharp\WebSocketStream.cs" />
+     <Compile Include="Assets\Scripts\SocketIODriveClient.cs" />
+     <Compile Include="Assets\Scripts\ThrottleManager.cs" />
+     <Compile Include="Assets\Scripts\TrackScript.cs" />
+     <Compile Include="Assets\Scripts\TrainingManager.cs" />
+     <Compile Include="Assets\Scripts\Twiddle.cs" />
+     <Compile Include="Assets\Scripts\TwiddlePID.cs" />
+     <Compile Include="Assets\Scripts\UnityStandardCarAdapter.cs" />
+     <Compile Include="Assets\TerrainToolkit\TerrainToolkit.cs" />
+     <None Include="Assets\Resources\warehouse.txt" />
+     <None Include="Assets\Scripts\SocketIO\Readme.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Normal-BumpSpec.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Surface.shader" />
+     <None Include="Assets\Medieval_House\Info.txt" />
+     <None Include="Assets\Resources\racePi4_house_location.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Alpha-Bumped.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Surface_Alpha.shader" />
+     <None Include="Assets\Resources\racePi_house_location.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Alpha-BumpSpec.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\Resources\racePi2.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Alpha-Diffuse.shader" />
+     <None Include="Assets\Resources\racePi.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D Marker.shader" />
+     <None Include="Assets\Scripts\SocketIO\JSONObject\readme.txt" />
+     <None Include="Assets\Baker House\Readme.txt" />
+     <None Include="Assets\Resources\racePi2_house_location.txt" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\surfaceAlpha.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Normal-Diffuse.shader" />
+     <None Include="Assets\Resources\racePi3_house_location.txt" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\Surface.shader" />
+     <None Include="Assets\EasyRoads3D Free\_Readme.txt" />
+     <None Include="Assets\EasyRoads3D Free\_readme 1.txt" />
+     <None Include="Assets\EasyRoads3D Free\Release Notes.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Road-Edit-Mode.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Normal-Bumped.shader" />
+     <None Include="Assets\Resources\racePi4.txt" />
+     <None Include="Assets\TerrainToolkit\Read me.txt" />
+     <None Include="Assets\Resources\racePi3.txt" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="EasyRoads3D">
+ <HintPath>/Users/edwardkim/Desktop/sdsandbox3/sdsim/Assets/EasyRoads3D Free/lib/EasyRoads3D.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D160024C-1F71-A018-5A5F-673379431A96}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

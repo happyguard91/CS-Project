@@ -1,0 +1,20 @@
+GameObject instance1 = Instantiate(Resources.Load("Baker_house", typeof(GameObject))) as GameObject;
+			GameObject instance2 = Instantiate(Resources.Load("Baker_house", typeof(GameObject))) as GameObject;
+			GameObject instance3 = Instantiate(Resources.Load("Baker_house", typeof(GameObject))) as GameObject;
+			GameObject instance4 = Instantiate(Resources.Load("Baker_house", typeof(GameObject))) as GameObject;
+			GameObject instance5 = Instantiate(Resources.Load("Baker_house", typeof(GameObject))) as GameObject;
+
+			instance1.transform.position = new Vector3(34, 0, 142);
+			instance1.transform.eulerAngles = new Vector3(-90, 0, -10);
+
+			instance2.transform.position = new Vector3(-32, 0, 163);
+			instance2.transform.eulerAngles = new Vector3(-90, 0, 115);
+
+			instance3.transform.position = new Vector3(-102, 0, 187);
+			instance3.transform.eulerAngles = new Vector3(-90, 0, 431);
+
+			instance4.transform.position = new Vector3(-125, 0, 144);
+			instance4.transform.eulerAngles = new Vector3(-90, 0, 61);
+
+			instance5.transform.position = new Vector3(-184, 0, 87);
+			instance5.transform.eulerAngles = new Vector3(-90, 0, 96);

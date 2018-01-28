@@ -1,0 +1,21 @@
+racePi.txt 
+
+if(!houses_made)
+			{
+				houses_made = true;
+
+				instance1.transform.position = new Vector3(100, 0, 154);
+				instance1.transform.eulerAngles = new Vector3(-90, 0, -10);
+
+				instance2.transform.position = new Vector3(115, 0, 236);
+				instance2.transform.eulerAngles = new Vector3(-90, 0, 63);
+
+				instance3.transform.position = new Vector3(208, 0, 270);
+				instance3.transform.eulerAngles = new Vector3(-90, 0, 179);
+
+				instance4.transform.position = new Vector3(154, 0, 302);
+				instance4.transform.eulerAngles = new Vector3(-90, 0, 61);
+
+				instance5.transform.position = new Vector3(135, 0, 351);
+				instance5.transform.eulerAngles = new Vector3(-90, 0, 0);
+			}

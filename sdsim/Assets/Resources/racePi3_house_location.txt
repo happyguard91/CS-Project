@@ -1,0 +1,14 @@
+instance1.transform.position = new Vector3(335, 0, 310);
+			instance1.transform.eulerAngles = new Vector3(-90, 0, 236);
+
+			instance2.transform.position = new Vector3(261, 0, 283);
+			instance2.transform.eulerAngles = new Vector3(-90, 0, 71);
+
+			instance3.transform.position = new Vector3(221, 0, 213);
+			instance3.transform.eulerAngles = new Vector3(-90, 0, -60);
+
+			instance4.transform.position = new Vector3(173, 0, 203);
+			instance4.transform.eulerAngles = new Vector3(-90, 0, 78);
+
+			instance5.transform.position = new Vector3(149, 0, 137);
+			instance5.transform.eulerAngles = new Vector3(-90, 0, 96);
